@@ -1,0 +1,9 @@
+main.c:59:6:toggelLed1	0	static
+main.c:62:6:toggelLed2	0	static
+main.c:65:6:toggelLed3	0	static
+main.c:68:6:toggelLed4	0	static
+main.c:71:6:toggelLed5	0	static
+main.c:127:6:SystemClock_Config	72	static,ignoring_inline_asm
+main.c:80:5:main	40	static,ignoring_inline_asm
+main.c:231:6:HAL_TIM_PeriodElapsedCallback	0	static
+main.c:240:6:Error_Handler	0	static,ignoring_inline_asm
