@@ -1,0 +1,13 @@
+ while (1)
+  {
+    /* USER CODE END WHILE */
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET); //PIN 5 on
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET); //PIN 6 off
+	  HAL_Delay(2000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET); //PIN 5 off
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET); //PIN 6 on
+	  HAL_Delay(2000);
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
